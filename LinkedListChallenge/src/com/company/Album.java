@@ -1,50 +1,79 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Album {
 
-    ArrayList <Song> songList;
-    String albumName;
+    private ArrayList <Song> songs;
+    private  String name;
+    private String artist;
 
-    public Album(String albumName) {
-        this.songList = new ArrayList<>();
-        this.albumName = albumName;
+    public Album(String name, String artist) {
+        this.songs = new ArrayList<>();
+        this.artist=artist;
+        this.name = name;
     }
 
-    public boolean addNewSong (Song song) {
+    public boolean addNewSong (String title, double duration) {
 
-        if (findSong(song.songTitle) >=0) {
-            
-            System.out.println("Song already exist in Album" + albumName);
+        if (findSong(title) != null) {
+
+            System.out.println("Song already exist in Album" + name);
             return false;
         }
 
-        this.songList.add(song);
+        this.songs.add(new Song(title,duration));
         return true;
     }
 
-    public boolean removeSong (Song song) {
+    public boolean addToPlayList (int trackNumber, LinkedList<Song> playList){
+        int index = trackNumber -1;
 
-        if (findSong(song.songTitle) < 0) {
-            System.out.println("Song doesn't exist in Album " + albumName);
+        if ((index >=0) && (index <=this.songs.size())) {
+            playList.add(this.songs.get(index));
+            return true;
+        }
+        System.out.println("This album does not have the track " + trackNumber);
+        return false;
+
+    }
+
+    public boolean addToPlayList (String title, LinkedList<Song> playList) {
+
+        Song foundSong = findSong(title);
+        if (foundSong != null) {
+            playList.add(foundSong);
+            return true;
+        }
+
+        System.out.println("This album does not have this title " + title);
+        return false;
+
+
+    }
+
+    public boolean removeSong (String title) {
+
+        Song tempSong = findSong(title);
+        if (tempSong == null) {
+            System.out.println("Song doesn't exist in Album " + name);
             return false;
         }
 
-        this.songList.remove(song);
+        this.songs.remove(tempSong);
         return true;
     }
 
 
-    public int findSong (String songTitle) {
+    private Song findSong (String songTitle) {
 
-        for (int i=0; i<songList.size(); i++) {
-            Song tempSong = songList.get(i);
-            if (tempSong.equals(songTitle)) {
-                return i;
+        for (Song checkedSong : this.songs) {
+            if (checkedSong.getSongTitle().equals(songTitle)) {
+                return checkedSong;
             }
         }
 
-        return -1;
+        return null ;
     }
 }

@@ -2,10 +2,10 @@ package com.company;
 
 public class Song {
 
-    String songTitle;
-    String songDuration;
+    private String songTitle;
+    private Double songDuration;
 
-    public Song(String songTitle, String songDuration) {
+    public Song(String songTitle, Double songDuration) {
         this.songTitle = songTitle;
         this.songDuration = songDuration;
     }
@@ -14,11 +14,16 @@ public class Song {
         return songTitle;
     }
 
-    public String getSongDuration() {
+    public Double getSongDuration() {
         return songDuration;
     }
 
-    public static Song createSong (String songTitle, String songDuration) {
+    @Override
+    public String toString() {
+        return this.songTitle + " : " + this.songDuration;
+    }
+
+    public static Song createSong (String songTitle, Double songDuration) {
         return new Song(songTitle, songDuration);
     }
 }

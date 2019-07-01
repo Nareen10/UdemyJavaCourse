@@ -1,19 +1,49 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 public class Main {
+
+    private static ArrayList<Album> albums = new ArrayList<>();
 
     public static void main(String[] args) {
         // write your code here
 
-        Album testAlbum = new Album("NareenAlbum");
-        testAlbum.addNewSong(Song.createSong("song1", "2:34"));
-        testAlbum.addNewSong(Song.createSong("song2", "2:25"));
-        testAlbum.addNewSong(Song.createSong("song3", "4:52"));
+        Album testAlbum = new Album("NareenAlbum", "Nareen");
+        testAlbum.addNewSong("title1", 4.7);
+        testAlbum.addNewSong("title2", 5.7);
+        testAlbum.addNewSong("title3", 2.4);
+        testAlbum.addNewSong("title4", 1.8);
+        testAlbum.addNewSong("title5", 3.3);
 
-        Album testAlbum2 = new Album("DeepaAlbum");
-        testAlbum2.addNewSong(Song.createSong("song4", "2:25"));
-        testAlbum2.addNewSong(Song.createSong("song5", "8:25"));
-        testAlbum2.addNewSong(Song.createSong("song6", "1:52"));
+        albums.add(testAlbum);
+
+
+        Album testAlbum = new Album("NareenAlbum2", "Nareen2");
+        testAlbum.addNewSong("title1", 4.7);
+        testAlbum.addNewSong("title2", 5.7);
+        testAlbum.addNewSong("title3", 2.4);
+        testAlbum.addNewSong("title4", 1.8);
+        testAlbum.addNewSong("title5", 3.3);
+
+        albums.add(testAlbum);
+
+        LinkedList<Song> playList = new LinkedList<>();
+
+
+
+        albums.get(0).addToPlayList(1,playList);
+        albums.get(1).addToPlayList("title1", playList);
+
+        albums.get(0).addToPlayList(3,playList);
+        albums.get(1).addToPlayList("title4", playList);
+
+        albums.get(0).addToPlayList(9,playList);
+        albums.get(1).addToPlayList("not title", playList);
+
+        albums.get(0).addToPlayList(4,playList);
+        albums.get(1).addToPlayList("title4", playList);
 
 
     }
