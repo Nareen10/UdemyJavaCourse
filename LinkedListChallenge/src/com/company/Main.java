@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 public class Main {
 
@@ -20,7 +21,7 @@ public class Main {
         albums.add(testAlbum);
 
 
-        Album testAlbum = new Album("NareenAlbum2", "Nareen2");
+        testAlbum = new Album("NareenAlbum2", "Nareen2");
         testAlbum.addNewSong("title1", 4.7);
         testAlbum.addNewSong("title2", 5.7);
         testAlbum.addNewSong("title3", 2.4);
@@ -30,7 +31,6 @@ public class Main {
         albums.add(testAlbum);
 
         LinkedList<Song> playList = new LinkedList<>();
-
 
 
         albums.get(0).addToPlayList(1,playList);
@@ -44,6 +44,15 @@ public class Main {
 
         albums.get(0).addToPlayList(4,playList);
         albums.get(1).addToPlayList("title4", playList);
+
+        play(playList);
+
+
+    }
+
+    public static void play (LinkedList<Song> playList) {
+
+        ListIterator list = playList.listIterator();
 
 
     }
