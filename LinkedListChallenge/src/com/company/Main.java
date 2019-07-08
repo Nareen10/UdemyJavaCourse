@@ -1,8 +1,6 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.ListIterator;
+import java.util.*;
 
 public class Main {
 
@@ -40,7 +38,7 @@ public class Main {
         albums.get(1).addToPlayList("title4", playList);
 
         albums.get(0).addToPlayList(9,playList);
-        albums.get(1).addToPlayList("not title", playList);
+        albums.get(1).addToPlayList("Negative Album", playList);
 
         albums.get(0).addToPlayList(4,playList);
         albums.get(1).addToPlayList("title4", playList);
@@ -50,9 +48,76 @@ public class Main {
 
     }
 
+    private static void printList (LinkedList<Song> playList) {
+
+        Iterator list = playList.iterator();
+        int counter =0;
+
+        while (list.hasNext()) {
+            counter++;
+            System.out.println(counter + ". " + list.next().toString());
+        }
+
+        System.out.println("==================================");
+
+    }
+
     public static void play (LinkedList<Song> playList) {
 
+        Scanner scanner = new Scanner(System.in);
         ListIterator list = playList.listIterator();
+        boolean quit = false;
+        boolean forward = true;
+
+
+        if (playList.isEmpty()) {
+            System.out.println("There is no songs in the playlist");
+            return;
+        } else {
+            System.out.println("Now playing ..." + list.next().toString());
+        }
+
+        while (!quit) {
+
+            int action = scanner.nextInt();
+            scanner.nextLine();
+
+            switch (action)  {
+                case 0:
+                    System.out.println("PlayList complete");
+                    quit = true;
+                    break;
+                case 1:
+                    if (!forward) {
+                      if (list.hasNext()) {
+                          list.next();
+                      }
+                      forward=true;
+                    }
+                    if (list.hasNext()) {
+                        System.out.println("Playing " + list.next().toString());
+                    }
+                    else {
+                        System.out.println("We've reached the end of the list");
+                        forward=false;H
+                    }
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    printList(playList);
+                    break;
+                case 5:
+                    printMenu();
+                    break;
+            }
+
+
+
+
+        }
 
 
     }
