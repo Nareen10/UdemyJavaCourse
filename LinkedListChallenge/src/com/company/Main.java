@@ -99,10 +99,23 @@ public class Main {
                     }
                     else {
                         System.out.println("We've reached the end of the list");
-                        forward=false;H
+                        forward=false;
                     }
                     break;
                 case 2:
+                    if (forward) {
+                        if(list.hasPrevious()){
+                            list.previous();
+                        }
+                        forward=false;
+                    }
+                    if (list.hasPrevious()) {
+                        System.out.println("Playing " + list.previous().toString());
+                    }
+                    else {
+                        System.out.println("We've reached the start of the list");
+                        forward=true;
+                    }
                     break;
                 case 3:
                     break;
