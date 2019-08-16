@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
 
-    private static ArrayList<Album> albums = new ArrayList<>();
+    private static List<Album> albums = new ArrayList<>();
 
     public static void main(String[] args) {
 
@@ -29,7 +29,7 @@ public class Main {
 
         albums.add(testAlbum);
 
-        LinkedList<Song> playList = new LinkedList<>();
+        List<Song> playList = new ArrayList<>();
 
 
        albums.get(0).addToPlayList(1,playList);
@@ -49,7 +49,7 @@ public class Main {
 
     }
 
-    private static void printList (LinkedList<Song> playList) {
+    private static void printList (List<Song> playList) {
 
         Iterator list = playList.iterator();
         int counter =0;
@@ -80,7 +80,7 @@ public class Main {
 
     }
 
-        public static void play (LinkedList<Song> playList) {
+        public static void play (List<Song> playList) {
 
         Scanner scanner = new Scanner(System.in);
         ListIterator list = playList.listIterator();
