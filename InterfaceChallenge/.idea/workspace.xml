@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9c4b9205-b401-47c3-9eae-d0396d492c5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Interfaces.LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces.LinkedList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UdemyJavaCourse.iml" beforeDir="false" />
+=======
+    <list default="true" id="5a98d2c1-3ec1-4ee1-8e5c-434e9bc102e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/ISaveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaces.LinkedList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces.LinkedList/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaces.LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces.LinkedList/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,17 +30,107 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+            <state relative-caret-position="459">
+              <caret line="78" column="43" lean-forward="true" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Monster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/ISaveable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+              </folding>
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/ISaveable.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Monster.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+      </list>
+    </option>
+  </component>
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -40,6 +139,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="170" />
     <option name="y" value="91" />
@@ -47,13 +147,27 @@
     <option name="height" value="546" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="8" />
+    <option name="width" value="1614" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -64,6 +178,14 @@
             <path>
               <item name="InterfaceChallenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="InterfaceChallenge" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterfaceChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterfaceChallenge" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -76,6 +198,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
     </panes>
   </component>
   <component name="RunDashboard">
@@ -101,22 +228,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="9c4b9205-b401-47c3-9eae-d0396d492c5b" name="Default Changelist" comment="" />
       <created>1566440257702</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566440257702</updated>
+=======
+      <changelist id="5a98d2c1-3ec1-4ee1-8e5c-434e9bc102e2" name="Default Changelist" comment="" />
+      <created>1567177117204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567177117204</updated>
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -124,14 +271,25 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
+=======
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -147,10 +305,72 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/company/ISaveable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="78" column="43" lean-forward="true" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
         </state>
       </provider>
     </entry>
