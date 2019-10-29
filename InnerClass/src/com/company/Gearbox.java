@@ -12,8 +12,13 @@ public class Gearbox {
     public Gearbox(int maxGear) {
         this.maxGear = maxGear;
         this.gears = new ArrayList<Gear>();
-        Gear neutral = new Gear(0, 0.0);
-        this.gears.add(neutral);
+
+//        Gear neutral = new Gear(0, 0.0);
+//        this.gears.add(neutral);
+
+        for (int i=0; i<=maxGear; i++) {
+           addGear(i, i*5.3);
+        }
     }
 
     public void operateClutch (boolean in ) {
