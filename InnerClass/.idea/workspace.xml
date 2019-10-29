@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="734a2811-f6e6-458b-a51d-f42f7fa3e61e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -10,6 +11,9 @@
       <change beforePath="$PROJECT_DIR$/../Interfaces.LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces.LinkedList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UdemyJavaCourse.iml" beforeDir="false" />
     </list>
+=======
+    <list default="true" id="734a2811-f6e6-458b-a51d-f42f7fa3e61e" name="Default Changelist" comment="" />
+>>>>>>> a9df80ec200183b01b0ee3ec28e92a5cf78bd173
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +29,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="240">
               <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+=======
+            <state relative-caret-position="136">
+              <caret line="8" column="54" selection-start-line="8" selection-end-line="9" />
+>>>>>>> a9df80ec200183b01b0ee3ec28e92a5cf78bd173
             </state>
           </provider>
         </entry>
@@ -34,12 +43,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Gearbox.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="170">
               <caret line="16" column="34" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="16" selection-end-column="34" />
               <folding>
                 <element signature="e#1634#1635#0" expanded="true" />
                 <element signature="e#1670#1671#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="414">
+              <caret line="62" column="45" lean-forward="true" selection-start-line="62" selection-start-column="44" selection-end-line="65" selection-end-column="9" />
+>>>>>>> a9df80ec200183b01b0ee3ec28e92a5cf78bd173
             </state>
           </provider>
         </entry>
@@ -74,9 +88,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="134" />
-    <option name="y" value="-13" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-359" />
+    <option name="y" value="162" />
     <option name="width" value="1614" />
     <option name="height" value="867" />
   </component>
@@ -86,7 +100,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+      <pane id="Scope" />
+>>>>>>> a9df80ec200183b01b0ee3ec28e92a5cf78bd173
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,16 +132,23 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+      <pane id="PackagesPane" />
+>>>>>>> a9df80ec200183b01b0ee3ec28e92a5cf78bd173
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+=======
+>>>>>>> a9df80ec200183b01b0ee3ec28e92a5cf78bd173
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,16 +193,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
+=======
+    <frame x="-359" y="162" width="1614" height="867" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2014157" />
+>>>>>>> a9df80ec200183b01b0ee3ec28e92a5cf78bd173
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+=======
+>>>>>>> a9df80ec200183b01b0ee3ec28e92a5cf78bd173
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
@@ -201,19 +235,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Gearbox.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="170">
           <caret line="16" column="34" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="e#1634#1635#0" expanded="true" />
             <element signature="e#1670#1671#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="136">
+          <caret line="8" column="54" selection-start-line="8" selection-end-line="9" />
+>>>>>>> a9df80ec200183b01b0ee3ec28e92a5cf78bd173
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="240">
           <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+=======
+        <state relative-caret-position="414">
+          <caret line="62" column="45" lean-forward="true" selection-start-line="62" selection-start-column="44" selection-end-line="65" selection-end-column="9" />
+>>>>>>> a9df80ec200183b01b0ee3ec28e92a5cf78bd173
         </state>
       </provider>
     </entry>
