@@ -1,13 +1,19 @@
 package com.company;
 
+<<<<<<< HEAD
+=======
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+<<<<<<< HEAD
+    }
+=======
 
 //
 //        Player tim = new Player ("Tim", 10, 15);
@@ -83,4 +89,5 @@ public class Main {
 
 
 
+>>>>>>> 4a6c6b60bd24a5542d801f411174398b640fd5bd
 }
